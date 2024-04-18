@@ -1,6 +1,5 @@
 package br.com.claudio.homemodule
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import br.com.claudio.homemodule.databinding.ActivityHomeBinding
@@ -11,10 +10,10 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        binding.btHelp.setOnClickListener {
-            val intent = Intent(this, HelpActivity::class.java)
-            startActivity(intent)
-        }
+//
+//        binding.btHelp.setOnClickListener {
+//            val intent = Intent(this, HelpActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 }
